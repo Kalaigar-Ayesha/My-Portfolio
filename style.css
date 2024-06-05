@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #91f086;
+  color: #02231c;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: #48bf53;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #004d25;
+}
+nav ul li a:hover {
+  color: lavenderblush;
+  font-size: 1.04rem;
+}
+.left {
+  font-size: 1.5rem;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 120px 0;
+}
+.firstsection > div {
+  width: 30%;
+}
+.leftsection {
+  /* background-color: red; */
+  font-size: 2rem;
+  color: #11823b;
+  /* margin: 10px 0; */
+}
+.leftsection .btn {
+  /* .leftsection .btn { */
+  padding: 12px;
+  background-color: #b0f9a7;
+  color: #a79b16;
+  border: 3px solid;
+  border-radius: 23px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.leftsection .buttons {
+  padding: 63px 0;
+}
+.rightsection img {
+  /* width: 100%;
+  margin: 50px 0; */
+  width: 450px;
+  margin: 10px 0;
+  /* height: 200px; */
+}
+.purple {
+  color: #02231c;
+}
+.h6 {
+  font-size: 25px;
+}
+#element {
+  color: #02231c;
+}
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+main hr {
+  border: 0;
+  background-color: #05471e;
+  height: 1.2px;
+  margin: 62px 50px;
+}
+.secondsection .h1 {
+  font-size: 1.9rem;
+}
+.text-gray {
+  color: #05471e;
+}
+.secondsection .box {
+  background-color: #05471e;
+  width: 87vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondsection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: #05471e;
+  margin: 0 114px;
+}
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+  font-size: 13px;
+}
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: #05471e;
+  width: 150px;
+  font-size: 9px;
+}
+.img-top {
+  width: 30px;
+  position: relative;
+  top: -37px;
+  left: -2px;
+}
+footer {
+  background-color: #48bf53;
+  /* height: 233px; */
+}
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+.footer ul {
+  list-style: none;
+}
+.footer > div {
+  width: 223px;
+}
+footer .footer-right {
+  text-align: center;
+  color: #2d7248;
+  padding: 12px 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
